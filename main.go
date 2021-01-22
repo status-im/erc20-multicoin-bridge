@@ -96,7 +96,7 @@ func main() {
 		gopath = build.Default.GOPATH
 	}
 	fmt.Println("Reading mc_test.sol")
-	counterSrc, err := filepath.Abs(gopath + "/src/github.com/ava-labs/coreth/examples/multicoin/mc_test.sol")
+	counterSrc, err := filepath.Abs("mc_test.sol")
 	checkError(err)
 	fmt.Println("Compiling Solidity")
 	contracts, err := compiler.CompileSolidity("", counterSrc)
