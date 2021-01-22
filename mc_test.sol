@@ -1,4 +1,4 @@
-pragma solidity >=0.6.0;
+pragma solidity >=0.8.0;
 
 contract MCTest {
     address constant MultiCoin = 0x0100000000000000000000000000000000000000;
